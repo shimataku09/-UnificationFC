@@ -1,0 +1,104 @@
+body {
+  font-family: 'Noto Serif JP', serif;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 100px;
+}
+
+.header-list h4 {
+  padding: 33px 20px;
+  font-size: 30px
+}
+
+main {
+  padding: 50px 80px
+}
+
+.copy-container h1 {
+  font-size: 100px
+}
+
+.copy-container h2 {
+  font-size: 70px
+}
+
+.copy-container h3 {
+  font-size: 20px
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contents content-item {
+  flex: auto;
+  width: 50%
+  padding: 10px 10px
+}
+
+.content-item p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+
+/* フォームについて */
+.form-wrapper{
+  text-align: center;
+  height: 400px;
+  width: 90%;
+  margin:auto;
+  color: #271830;
+  background-color: #26d0c9;
+  border-radius: 10px;
+}
+
+.rgba {
+  background: #26d0c9;
+}
+
+.form-wrapper:hover{
+  transition: all 0.5s;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.form-wrapper button{
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.form-wrapper h3 {
+  color: #FFFFFF ;
+  padding: 15px;
+  font-size: 30px
+}
+.form-wrapper input {
+  height: 30px;
+  width: 500px;
+  margin: 15px 15px;
+}
+.form-wrapper textarea {
+  height: 100px;
+  width: 400px;
+}
+
+@@media(max-width: 670px) {
+  footer img{
+    background-size: cover;
+    width: 50%;
+  }
+  contents {
+    flex-direction: column;
+  }
+  content-item {
+    margin: 0 auto;
+  }
