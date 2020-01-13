@@ -91,6 +91,10 @@ main {
   width: 400px;
 }
 
+footer {
+  text-align: center;
+}
+
 @@media(max-width: 670px) {
   footer img{
     background-size: cover;
